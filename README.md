@@ -1,5 +1,7 @@
 # Gigster QA Practical: Automated web application testing
+by Iftikhar (iftiali@gmail.com)
 
+Adding Chai and Mocha unit testing framework
 Please see accompanying practical description for tasks.
 
 ### To run locally:
