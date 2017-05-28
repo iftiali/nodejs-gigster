@@ -3,8 +3,8 @@ services:
   web:
     image: node:latest
     volumes:
-      - ./:/usr/src/app
-    working_dir: /usr/src/app
+      - ./:/Users/src/app
+    working_dir: /Users/src/app
     env_file: .env
     ports:
       - "80:8000"
@@ -14,3 +14,4 @@ services:
   mongo:
     image: mongo
     command: mongod
+    restart: always

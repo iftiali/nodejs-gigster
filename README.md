@@ -3,8 +3,10 @@
 Please see accompanying practical description for tasks.
 
 ### To run locally:
+Please use sudo or root user to execute the following command. Also look at the error and make sure you have the correct name directory is present on local drive
 ```shell
   $ docker-compose up #starts server at 0.0.0.0
+  
 ```
 
 ### Routes:
